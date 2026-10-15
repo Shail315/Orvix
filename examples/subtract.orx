@@ -1,0 +1,14 @@
+FORGE a;
+FORGE b;
+FORGE result;
+
+SPEAK "Enter first number:";
+ACQUIRE a;
+
+SPEAK "Enter second number:";
+ACQUIRE b;
+
+result = a - b;
+
+SPEAK "sub is:";
+SPEAK result;

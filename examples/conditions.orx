@@ -1,0 +1,18 @@
+// Dynamic values work in loops and conditionals.
+
+FORGE counter;
+FORGE label;
+
+counter = 1;
+label = "odd";
+
+RECUR (counter <= 5) {
+    VERIFY (counter % 2 == 0) {
+        SPEAK "even";
+    } DENY {
+        SPEAK label;
+    }
+
+    SPEAK counter;
+    counter = counter + 1;
+}

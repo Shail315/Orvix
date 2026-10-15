@@ -1,0 +1,17 @@
+
+ // ORVIX: Addition of two integers
+
+FORGE a;
+FORGE b;
+FORGE total;
+
+SPEAK "Enter first number:";
+ACQUIRE a;
+
+SPEAK "Enter second number:";
+ACQUIRE b;
+
+total = a + b;
+
+SPEAK "Sum is:";
+SPEAK total;
